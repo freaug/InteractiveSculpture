@@ -1,0 +1,94 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  font-size: 100%;
+  font-family: monospace;
+}
+canvas {
+  display: block;
+  margin: 1.5em;
+  padding: 0.5em;
+}
+
+button {
+  margin: 0.5em;
+  padding-left: 0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-right: 0em;
+  font-size: 5em;
+}
+
+p {
+  text-align: Left;
+  margin: auto;
+  /*margin-left: 99.5px;*/
+  padding: 0.5em;
+  width: auto;
+  /*padding-left: 6.5px;*/
+}
+
+#prompt {
+  text-align: Left;
+  margin: auto;
+  /*margin-left: 99.5px;*/
+  padding: 0.5em;
+  /*width: auto;*/
+  /*padding-left: 6.5px;*/
+  font-size: 5em;
+  color: white;
+}
+
+#timer{
+  text-align: Left;
+  margin: auto;
+  /*margin-left: 99.5px;*/
+  padding: 0.5em;
+  /*width: auto;*/
+  /*padding-left: 6.5px;*/
+  font-size: 5em;
+  color: white;
+  
+}
+
+#thank {
+  text-align: Left;
+  margin: auto;
+  /*margin-left: 99.5px;*/
+  padding: 0.5em;
+  /*width: auto;*/
+  /*padding-left: 6.5px;*/
+  font-size: 5em;
+  color: white;
+}
+
+#title {
+  text-align: Left;
+  margin: auto;
+  /*margin-left: 99.5px;*/
+  padding: 0.5em;
+  /*width: auto;*/
+  /*padding-left: 6.5px;*/
+  font-size: 6em;
+  color: white;
+}
+
+#l {
+  background: blue;
+  color: white;
+  border-style: none;
+}
+
+#r {
+  background: orange;
+  color: white;
+  border-style: none;
+}
+
+#control-button {
+  margin: 0.5em;
+  padding: 0.25em;
+  font-size: 2em;
+}
