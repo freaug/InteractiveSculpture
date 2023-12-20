@@ -1,4 +1,4 @@
-# InteractiveSculpture
+# Interactive Sculpture
 A web app that uses socketio, nodejs, and express to allow people to vote in real-time to determine what dance performers will do.
 
 ![](/media/SculptureOn.jpg)
