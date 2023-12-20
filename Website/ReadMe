@@ -1,1 +1,16 @@
+The App was originally hosted on Glitch.com
 
+The app is built on Express which is a lightweight nodejs framework. 
+
+The file structure is:
+server.js - main server
+package.json - dependencies for the app
+public/ 
+  sketch.js - generates the content and handles the socketio communication with the server
+  sketchLeader.js - generates the content and handles the socketio communication with the server used to change the state of index.html
+  lightdata.json - the JSON file written by serverjs.  This is the file the esp32 downloads and uses to control the LED colors
+views/
+  index.html - sketch.js generates the content for this page
+  controlPanel.html - sketchLeader.js generates the content for this page
+  
+  
