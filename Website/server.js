@@ -30,11 +30,6 @@ app.get("/", function (request, response) {
   response.sendFile(__dirname + "/views/index.html");
 });
 
-//where esp32 will connect too
-app.get("/lightstate", function (request, response) {
-  response.sendFile(__dirname + "/views/lightstate.html");
-});
-
 //where leader control panel is
 app.get("/control", function (request, response) {
   response.sendFile(__dirname + "/views/controlPanel.html");
